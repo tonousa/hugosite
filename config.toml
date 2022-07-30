@@ -1,0 +1,20 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Mark's Portfolio"
+theme = "basic"
+disqusShortname = "localhost-comments"
+Paginate = 10
+[params]
+    author = "Mark King"
+    description = "My portfolio site"
+    gh_url = "https://api.github.com/users"
+    gh_user = "tonousa"
+[permalinks]
+    posts = "posts/:year/:month/:slug/"
+    year = "/posts/:slug/"
+    month = "/posts/:slug/"
+[taxonomies]
+    year = "year"
+    month = "month"
+    tag = "tags"
+    category = "categories"
